@@ -1,6 +1,7 @@
 body {
   background-color: #fff;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -12,6 +13,11 @@ header img {
   height: 20px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+#profile-img {
+  width: 27px;
+  height: 27px;
 }
 
 #main-container {
@@ -39,7 +45,7 @@ header img {
   padding-right: 18px;
   padding-left: 18px;
   border: 1px solid #dfe1e5;
-  /* box-shadow: 0 0 5px gray; */
+  box-shadow: 0 0 5px #dfe1e5;
 }
 
 #search-icon {
