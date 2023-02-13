@@ -10,10 +10,19 @@
   </head>
   <body>
     <header>
-      <p>Gmail</p>
-      <p>Images</p>
-      <p>Waffle</p>
-      <p>Profile</p>
+      <div class="center-elements smaller-container">
+        <p>About</p>
+        <p>Store</p>
+      </div>
+      <div class="center-elements">
+        <p>Gmail</p>
+        <p>Images</p>
+        <!-- <span> -->
+        <img src="resources/images/menu.png" alt="" />
+        <!-- </span> -->
+        <!-- <img src="re" alt=""> -->
+        <p>Profile</p>
+      </div>
     </header>
     <div id="main-container">
       <img
@@ -22,15 +31,23 @@
         id="google-logo"
         class="center-elements"
       />
-      <input
-        type="text"
-        name="google-search"
-        id="search-box"
-        class="center-elements"
-      />
+
+      <div id="search-box-container" class="center-elements">
+        <label for="search-box">
+          <img id="search-icon" src="resources/images/search-icon.png" alt="" />
+        </label>
+        <input
+          type="text"
+          name="google-search"
+          id="search-box"
+          class="center-elements"
+        />
+        <img id="voice-icon" src="resources/images/google-voice.png" alt="" />
+      </div>
+
       <div class="center-elements" id="button-container">
-        <button>Button</button>
-        <button>Button</button>
+        <button>Google Search</button>
+        <button>I'm Feeling lucky</button>
       </div>
     </div>
   </body>
